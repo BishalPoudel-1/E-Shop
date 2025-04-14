@@ -36,32 +36,7 @@
 
 ## 📁 Project Structure
 
-E-SHOP/
-├── public/                        # Static assets
-├── src/
-│   ├── adminpage/                 # Admin page components (if any)
-│   ├── Component/                 # Shared reusable components
-│   ├── context_api/
-│   │   ├── AuthContext.js         # Global authentication context
-│   │   └── AuthReducer.js         # Reducer for auth state
-│   ├── pages/
-│   │   ├── AboutMe.jsx / .css
-│   │   ├── ContactForm.js / .css
-│   │   ├── Discount-ProductDetail.js / .css
-│   │   ├── ProductList.js
-│   │   ├── ProductDetail.js
-│   │   ├── home.js / .css
-│   │   ├── login.js / .css
-│   │   ├── usercart.jsx / .css
-│   │   ├── userbuy.jsx / .css
-│   │   └── usercheckout.jsx / .css
-│   ├── firebase.js                # Firebase config file
-│   ├── App.js                     # Main app component
-│   ├── index.js                   # React app entry point
-│   └── reportWebVitals.js         # Performance reporting
-├── package.json
-└── .gitignore
-
+E-SHOP/ ├── public/ # Static assets ├── src/ │ ├── adminpage/ # Admin page components (optional) │ ├── Component/ # Shared reusable components (e.g., Navbar, Footer) │ ├── context_api/ │ │ ├── AuthContext.js # Global authentication context │ │ └── AuthReducer.js # Reducer for managing auth state │ ├── pages/ │ │ ├── AboutMe.jsx / .css # About developer or site │ │ ├── ContactForm.js / .css # Contact form │ │ ├── Discount-ProductDetail.js / .css │ │ ├── ProductList.js # Product listing component │ │ ├── ProductDetail.js # Product detail component │ │ ├── home.js / .css # Landing page │ │ ├── login.js / .css # Login form │ │ ├── usercart.jsx / .css # User cart page │ │ ├── userbuy.jsx / .css # User purchasing component │ │ └── usercheckout.jsx / .css # Checkout page │ ├── firebase.js # Firebase configuration file │ ├── App.js # Root application component │ ├── index.js # Main entry point │ ├── reportWebVitals.js # Performance reporting │ └── setupTests.js # Test environment setup ├── package.json └── .gitignore
 
 
 
