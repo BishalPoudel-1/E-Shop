@@ -100,5 +100,5 @@ MIT License – Free to use, modify, and distribute with attribution.
 
 👤 Author
 ---------
-Made with 💙 by # Bishal Poudel  
+Made with 💙 by  Bishal Poudel  
 GitHub: https://github.com/BishalPoudel-1
