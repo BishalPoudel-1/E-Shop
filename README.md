@@ -26,7 +26,7 @@ It simulates a full online shopping experience — from browsing products to use
 
 📁 Project Structure
 --------------------
-![image](https://github.com/user-attachments/assets/57d11c60-454c-4845-9116-55e61f1d55e1)
+![image](https://github.com/user-attachments/assets/5748e948-fa97-4777-8ba9-3e98559bcc71)
 
 
 ✅ Getting Started
