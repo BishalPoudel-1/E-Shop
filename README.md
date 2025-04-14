@@ -26,32 +26,7 @@ It simulates a full online shopping experience — from browsing products to use
 
 📁 Project Structure
 --------------------
-E-SHOP/
-├── public/                        → Static assets
-├── src/
-│   ├── adminpage/                 → Admin page components (optional)
-│   ├── Component/                 → Shared reusable components (Navbar, Footer, etc.)
-│   ├── context_api/
-│   │   ├── AuthContext.js         → Global auth context
-│   │   └── AuthReducer.js         → Reducer for managing auth state
-│   ├── pages/
-│   │   ├── AboutMe.jsx / .css
-│   │   ├── ContactForm.js / .css
-│   │   ├── Discount-ProductDetail.js / .css
-│   │   ├── ProductList.js
-│   │   ├── ProductDetail.js
-│   │   ├── home.js / .css
-│   │   ├── login.js / .css
-│   │   ├── usercart.jsx / .css
-│   │   ├── userbuy.jsx / .css
-│   │   └── usercheckout.jsx / .css
-│   ├── firebase.js                → Firebase configuration
-│   ├── App.js                     → Root component
-│   ├── index.js                   → App entry point
-│   ├── reportWebVitals.js         → Performance monitoring
-│   └── setupTests.js              → Testing setup
-├── package.json
-└── .gitignore
+<pre> ```bash E-SHOP/ ├── public/ → Static assets ├── src/ │ ├── adminpage/ → Admin page components (optional) │ ├── Component/ → Shared reusable components (Navbar, Footer, etc.) │ ├── context_api/ │ │ ├── AuthContext.js → Global auth context │ │ └── AuthReducer.js → Reducer for managing auth state │ ├── pages/ │ │ ├── AboutMe.jsx / .css │ │ ├── ContactForm.js / .css │ │ ├── Discount-ProductDetail.js / .css │ │ ├── ProductList.js │ │ ├── ProductDetail.js │ │ ├── home.js / .css │ │ ├── login.js / .css │ │ ├── usercart.jsx / .css │ │ ├── userbuy.jsx / .css │ │ └── usercheckout.jsx / .css │ ├── firebase.js → Firebase configuration │ ├── App.js → Root component │ ├── index.js → App entry point │ ├── reportWebVitals.js → Performance monitoring │ └── setupTests.js → Testing setup ├── package.json └── .gitignore ``` </pre>
 
 ✅ Getting Started
 ------------------
