@@ -47,24 +47,24 @@ It simulates a full online shopping experience — from browsing products to use
 
 5. Open `http://localhost:3000` in your browser.
 
-📸 Screenshots 
+📸 Screenshots (Full Height)
 -------------------------
 ## Homepage
 
-# Desktop Version
+### Desktop Version
 ![homw](https://github.com/user-attachments/assets/211060f6-1589-4e7b-bb47-e24ff766882c)
 
-# Mobile Version
+### Mobile Version
 ![mobile home](https://github.com/user-attachments/assets/1d7c502f-53e0-4dd0-98ca-b4df59185df2)
 
 
 ## Login/Signup Pages
 
-# Desktop version
+### Desktop version
 ![login](https://github.com/user-attachments/assets/5fb6ce3b-54f5-4b32-b645-86ec6c95b77e)
 ![register](https://github.com/user-attachments/assets/fc6a6919-2aca-4ef1-a479-4b237da11176)
 
-# Mobile Version
+### Mobile Version
 ![mobile login](https://github.com/user-attachments/assets/19a17dbb-4dd8-460b-bffb-91f6b32f634b)
 ![mobile register](https://github.com/user-attachments/assets/8b95b9c4-ce44-47eb-9872-0e7c0bf013d1)
 
