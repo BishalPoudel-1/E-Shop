@@ -63,3 +63,29 @@ E-SHOP/
 └── .gitignore
 
 
+
+
+## ✅ Setup Instructions
+
+Clone the repo
+   git clone https://github.com/BishalPoudel-1/E-Shop.git
+   cd E-Shop
+Install dependencies
+
+bash
+Copy
+Edit
+npm install
+Configure Firebase
+
+Replace the placeholder config in firebase.js with your Firebase project's credentials.
+
+Start the dev server
+
+bash
+Copy
+Edit
+npm start
+📸 Screenshots
+(Optional: Add UI screenshots of homepage, cart, product details, etc.)
+
