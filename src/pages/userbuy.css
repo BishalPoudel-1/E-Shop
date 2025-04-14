@@ -1,0 +1,122 @@
+/* usercart.css */
+
+/* General Styles */
+.cartbodypartall1 {
+    background-color: #f7f7f7;
+    /* Additional styles as needed */
+}
+
+/* Cart Page Layout */
+.cart-page1 {
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: space-between;
+    height: 86vh;
+    overflow: hidden; /* Prevents overflow issues within the cart page */
+}
+
+.cart-left1 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Align content at the top */
+ 
+    background-color: #f7f7f7;
+    padding-top: 20px;
+    overflow-y: auto; /* Allows scrolling if content exceeds the height */
+}
+
+
+
+/* Cart Content Styles */
+.cart-content1 {
+    padding-bottom: 20px; /* Adds some space at the bottom of the cart content */
+    color: #888;
+    overflow-y: auto;
+    max-height: calc(100vh - 150px); /* Adjust the max height to prevent overlapping */
+}
+
+/* Individual Cart Item Styles */
+.products1980121 {
+    width: 100%;
+    max-width: 1100px;
+    height: auto;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: row;
+    margin: 10px auto; /* Centers the card horizontally */
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    align-items: center;
+    overflow: hidden; /* Ensures no content spills out of the box */
+}
+
+/* Checkbox Styles */
+.checkbox-user-cart1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px; /* Adds space between checkbox and image */
+}
+
+
+
+/* Product Image Styles */
+.img-user-cart1 {
+    flex: 0 0 120px; /* Fixed width for the image container */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px; /* Space between image and title */
+}
+
+.img-user-cart-product1 {
+    width: 100%;
+    height: auto;
+    max-width: 120px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* Product Title Styles */
+.title-cart-product1 {
+    flex: 1; /* Takes up remaining space */
+    display: flex;
+    text-align: left;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.title-cart-product1 h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+/* Price Section Styles */
+.price-cart-product1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-left: auto;
+    font-size: 16px;
+    color: #00ff00; /* Pushes the price section to the end */
+}
+
+.cart-orginal-price1 {
+    font-size: 16px;
+    margin: 0;
+}
+
+
+
+
+.cart-discount-price1 {
+    font-size: 16px;
+  
+    margin: 0;
+}
+
+
+

@@ -1,0 +1,188 @@
+/* usercart.css */
+
+/* General Styles */
+.cartbodypartall2 {
+    background-color: #f7f7f7;
+    /* Additional styles as needed */
+}
+
+/* Cart Page Layout */
+.cart-page2 {
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+   
+    height: 86vh;
+    overflow: hidden; /* Prevents overflow issues within the cart page */
+}
+
+.cart-left2 {
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Align content at the top */
+    
+    background-color: #f7f7f7;
+    padding-top: 20px;
+    overflow-y: auto; /* Allows scrolling if content exceeds the height */
+}
+
+.cart-right2 {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #fffcfc;
+    
+}
+
+
+
+/* Cart Content Styles */
+.cart-content2 {
+    padding-bottom: 20px; /* Adds some space at the bottom of the cart content */
+    color: #888;
+    overflow-y: auto;
+    max-height: calc(100vh - 150px); /* Adjust the max height to prevent overlapping */
+}
+
+/* Individual Cart Item Styles */
+.products1980122 {
+    width: 100%;
+    max-width: 1100px;
+    height: auto;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: row;
+   
+    margin: 10px auto; /* Centers the card horizontally */
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    align-items: center;
+    overflow: hidden; /* Ensures no content spills out of the box */
+}
+
+/* Checkbox Styles */
+.checkbox-user-cart2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px; /* Adds space between checkbox and image */
+}
+
+
+
+/* Product Image Styles */
+.img-user-cart2 {
+    flex: 0 0 120px; /* Fixed width for the image container */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px; /* Space between image and title */
+}
+
+.img-user-cart-product2 {
+    width: 100%;
+    height: auto;
+    max-width: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* Product Title Styles */
+.title-cart-product2 {
+    flex: 1; /* Takes up remaining space */
+    display: flex;
+    text-align: left;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.title-cart-product2 h1 {
+    font-size: 30px;
+    margin: 0;
+}
+
+/* Price Section Styles */
+.price-cart-product2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-left: auto;
+    font-size: 24px;
+    color: #333; /* Pushes the price section to the end */
+}
+
+.cart-orginal-price2 {
+   
+    color: #333;
+    margin: 0;
+}
+
+
+.line-through2 {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.cart-discount-price2 {
+
+    color: #e63946;
+    margin: 0;
+}
+
+/* Order Summary Styles */
+.order-summary2 {
+    width: 100%;
+    max-width: 300px;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+}
+
+.order-summary2 h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.summary-details2 {
+    margin-bottom: 20px;
+}
+
+.summary-item2 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.summary-item.discount2 span {
+    color: red;
+}
+
+.summary-item2 .total {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.place-order2 {
+    width: 100%;
+    padding: 10px 0;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.place-order2:hover {
+    background-color: #444;
+}
+
+/* Loader Overlay Styles */
+

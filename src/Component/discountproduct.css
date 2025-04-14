@@ -1,0 +1,87 @@
+
+  
+  .feature-product {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 690px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    margin: 20px;
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+    width: 350px;
+  }
+  
+  .feature-product img {
+    width: 100%;
+    max-width: 250px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .feature-product h2 {
+    margin: 20px 0 10px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .feature-product p {
+    color: #666;
+    padding: 0 20px;
+    margin: 0 0 90px;
+    font-size: 18px;
+    font-weight: 700;
+  }
+  
+  .feature-product .price {
+    font-size: 20px;
+    color: #367588;
+    margin: 0 0 10px;
+    text-decoration: line-through;
+    position: absolute;
+    
+    bottom: 90px;
+    
+  }
+  
+  .feature-product .discounted-price {
+    font-size: 20px;
+    color: #27ae60;
+    margin: 0 0 20px;
+    position: absolute;
+    bottom: 60px;
+  }
+  
+  .feature-product button {
+    background-color: #367588;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 60%;
+    position: absolute;
+    bottom: 10px;
+  }
+  
+  .feature-product button:hover {
+    background-color: #179bc3;
+  }
+  
+  .discount-label {
+    background-color: #367588;
+    color: #fff;
+    padding: 5px 10px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 14px;
+    border-radius: 5px;
+  }
+  

@@ -1,0 +1,95 @@
+.user-page {
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .adminusertitle {
+    color: #367588;
+    margin-bottom: 20px;
+  }
+  
+  .new-user-btn {
+    background-color: transparent;
+    color: #367588;
+    border-radius: 10px;
+    border-color: #367588;
+    padding: 10px 20px;
+    cursor: pointer;
+    float: right;
+    margin-bottom: 10px;
+  }
+
+  .new-user-btn:hover{
+    background-color: #367588;
+    color: #f4f4f4;
+  }
+
+
+  .user-delete-btn {
+    background-color: transparent;
+    color: #367588;
+    border-radius: 10px;
+    border-color: #367588;
+    padding: 5px 10px;
+    cursor: pointer;
+    float: right;
+    margin-bottom: 10px;
+  }
+
+  .user-delete-btn:hover{
+    background-color: #367588;
+    color: #f4f4f4;
+  }
+
+  
+  
+  .user-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .user-table th,
+  .user-table td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .user-table th {
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  .user-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .status-badge {
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    display: inline-block;
+  }
+  
+  .status-active {
+    background-color: #c8f7c5;
+    color: #008000;
+  }
+  
+  .status-banned {
+    background-color: #f7c5c5;
+    color: #e74c3c;
+  }
+  

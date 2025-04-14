@@ -1,0 +1,133 @@
+/* AdminPage.css */
+.admin-page {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #367588;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 15px 15px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dastitle {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .admin-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #555;
+  }
+  
+  .form-group input[type="text"],
+  .form-group input[type="number"],
+  .form-group textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #367588;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+  
+  .form-group textarea {
+    resize: vertical;
+  }
+
+  .inputimg{
+    width: 100%;
+    padding: 8px;
+    border: 1.5px solid ;
+    border-radius: 10px;
+    font-size: 16px;
+    box-sizing: border-box;
+    border-color: #367588;
+    
+  }
+  
+  .submit-button {
+    width: 100%;
+    padding: 10px;
+
+    background-color: transparent;
+    font-weight: bolder;
+    border-color: #367588;
+    border-radius: 15px;
+    color: #367588;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+  }
+  
+  .submit-button:hover {
+    background-color: #367588;
+    border-color: #367588;
+    color: #ffffff;
+  }
+
+  .back-button {
+    width: 100%;
+    padding: 15px;
+    background-color: transparent;
+    font-weight: bolder;
+    border-color: #367588;
+    border-radius: 15px;
+    color: #367588;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+    
+}
+
+.back-button:hover {
+    background-color: #367588;
+    border-color: #367588;
+    color: #ffffff;
+}
+
+
+
+ 
+  
+  .inputimg::-webkit-file-upload-button {
+    visibility: hidden;
+  }
+  
+  .inputimg::before {
+    content: 'Choose Image';
+    display: inline-block;
+    background-color: transparent; 
+    color: #367588; 
+    padding: 4px;
+    border: 1px solid #367588;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+  }
+  
+  .inputimg:hover::before {
+    background-color: #367588;
+    color: #f9f9f9; 
+    
+  }
+  
+  .inputimg::after {
+    content: attr(data-file-name);
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 16px;
+    font-style: italic;
+    color: #555; 
+  }
+  
+
+  
+  

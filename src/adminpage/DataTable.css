@@ -1,0 +1,5 @@
+.bold-header .MuiDataGrid-columnHeaderTitle {
+    font-weight: bold;
+    font-size: large;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

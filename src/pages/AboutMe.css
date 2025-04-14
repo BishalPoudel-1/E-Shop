@@ -1,0 +1,41 @@
+/* AboutMe.css */
+* {
+    margin: 0;
+    padding: 0;
+    transition: 0.5s;
+  }
+  
+  .about3 {
+    width: 100%;
+    text-align: center;
+  }
+  
+  #aboutprofile {
+    width: 210px;
+    height: auto;
+    padding: 10px;
+    border-radius: 10%;
+    background-color: #367588;
+    margin-top: 100px;
+  }
+  
+  h1 {
+    font-size: 70px;
+    padding-top: 20px;
+    font-family: 'Fredoka One', cursive;
+  }
+  
+  p {
+    line-height: 30px;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #444;
+    padding-top: 20px;
+  }
+  
+  .des {
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+  }
+  

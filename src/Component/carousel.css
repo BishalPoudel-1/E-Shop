@@ -1,0 +1,60 @@
+.imgslide {
+  width: 100%;
+  max-width: 1450px;
+  margin: auto;
+  overflow: hidden;
+
+  
+}
+
+.carousel-inner img {
+  object-fit: cover;
+  height: 100%;
+  border-radius: 12px;
+  margin-top: 20px;
+  
+}
+.btn-outline-custom-teal-blues {
+  background-color: #367588;
+  /* Custom Teal Blue background color on hover */
+  border-color: #367588be;
+  color: #ffffff;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+.btn-outline-custom-teal-blues:hover {
+
+  background-color: #179bc3;
+  border-color: #e7e6c6;
+}
+
+
+.carousel-caption .one {
+  position: absolute;
+  top: 29%;
+  color: white;
+  /* Change text color for better contrast */
+  text-shadow: -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+  /* Apply black border */
+
+
+
+
+}
+.sp{
+  box-shadow: -2px -2px 5px rgba(0, 0, 0, 0.5); 
+  margin: 10px 1px ;
+
+}
+.one h1{
+
+  font-size: 70px;
+  margin-bottom: 0;
+}
+.one h2{
+  font-size: 50px;
+}
+
+
