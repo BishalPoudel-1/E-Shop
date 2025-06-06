@@ -26,7 +26,7 @@ function App() {
 
   
   const RequireAuth = ({ children }) => {
-    return currentUser ? children : <Navigate to="/login" />;
+    return currentUser ? children : <Navigate to="/login" />; //It check the login is done or not.If the login is not done then it redirect to the login page.
   };
 
 console.log(currentUser);
