@@ -1,3 +1,4 @@
+//discount product detail page
 import React, { useContext, useEffect, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { NavLink } from 'react-router-dom';
