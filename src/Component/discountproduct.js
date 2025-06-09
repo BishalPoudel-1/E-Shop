@@ -1,3 +1,4 @@
+//discount page it use the different database. 
 import React from 'react';
 import './discountproduct.css';
 
