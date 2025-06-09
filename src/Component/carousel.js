@@ -1,3 +1,4 @@
+//collection components
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import p1 from '../Image/book.jpg';
